@@ -1,3 +1,5 @@
 *.exe
-*/
+.cph/
+.vscode/
+105618/
 template.cpp
