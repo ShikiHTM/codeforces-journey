@@ -6,4 +6,8 @@ using namespace std;
 
 int main() {
 	buff;
+	int iTest; cin >> iTest;
+	while(iTest--) {
+		int n; cin >> n;
+	}
 }

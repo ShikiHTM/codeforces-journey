@@ -6,4 +6,11 @@ using namespace std;
 
 int main() {
 	buff;
+	int iTest; cin >> iTest;
+	while(iTest--) {
+		int n; cin >> n;
+		
+		vector<int> a(n);
+		for(auto &it: a) cin >> it;
+	}
 }

@@ -6,4 +6,13 @@ using namespace std;
 
 int main() {
 	buff;
+	int n; cin >> n;
+	ll mx = 0, ans = 0;
+
+	for(int i = 1; i <= n; ++i) {
+		ll x; cin >> x;
+		mx = max(mx, x);
+		ans += mx - x;
+	}
+	cout << ans;
 }
